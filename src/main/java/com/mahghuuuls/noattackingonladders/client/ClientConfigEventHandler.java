@@ -24,6 +24,7 @@ public final class ClientConfigEventHandler {
     public void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event) {
         if (Tags.MOD_ID.equals(event.getModID())) {
             ConfigManager.sync(Tags.MOD_ID, Config.Type.INSTANCE);
+            ClientAttackPolicy.useLocalConfig();
         }
     }
 
