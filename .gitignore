@@ -17,9 +17,9 @@ out
 build
 .gradle
 
+# kate
+*.kate-swp
+
 # other
 eclipse
 run
-
-# Files from Forge MDK
-forge*changelog.txt

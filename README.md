@@ -1,1 +1,11 @@
-1.12.2 Minecraft Mod that blocks the attack from occurring when the player attacks (or shoots an arrow) while climbing a ladder. It will display a message to the player showing that the attack was blocked. The config file can enable/disable the blocking from meele attacks and bow, and enable/disable the displaying of the message.
+# No Attacking On Ladders
+
+A Minecraft 1.12.2 Forge mod that prevents players from attacking entities or firing bows while actively climbing a ladder or vine.
+
+Blocked actions display a message in the action bar by default. Blocked melee attacks do not swing, and blocked bow use does not start the drawing animation.
+
+## Configuration
+
+- `blockMelee` controls whether melee attacks are blocked. Default: `true`.
+- `blockBow` controls whether firing bows is blocked. Default: `true`.
+- `showMessages` controls whether blocked-action messages appear. Default: `true`.
